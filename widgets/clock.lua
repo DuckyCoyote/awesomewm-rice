@@ -10,7 +10,7 @@ local calendar_widget = require('awesome-wm-widgets.calendar-widget.calendar')
 
 -- Crear el widget de fecha
 local date_text = wibox.widget.textbox()
-vc.register(date_text, vc.widgets.date, ' %b %d %r')
+vc.register(date_text, vc.widgets.date, ' %b %d %I:%M')
 
 -- Crear el widget de imagen
 local date_icon = wibox.widget.imagebox(icon)
