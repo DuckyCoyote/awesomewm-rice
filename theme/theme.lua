@@ -19,7 +19,7 @@ theme.bg_minimize = color.dark
 theme.bg_systray = color.dark
 
 theme.useless_gap = dpi(7)
-theme.border_radius = dpi(50)
+--theme.border_radius = dpi(50)
 theme.tasklist_disable_task_name = true
 
 theme.fg_normal = color.light

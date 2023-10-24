@@ -144,7 +144,7 @@ awful.screen.connect_for_each_screen(function(s)
 	s.mywibox:setup {
 		layout = wibox.layout.align.horizontal,
 		{
-			add_margin(dashboard, 10),
+			add_margin(dashboard, 7),
 			add_margin(s.mytaglist, 7),
 			--add_margin(s.mytasklist, 15),
 			layout = wibox.layout.align.horizontal,
