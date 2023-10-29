@@ -16,7 +16,7 @@ theme.wallpaper = '/home/duckycoyote/wallcastle.jpg'
 theme.bg_normal = color.dark
 theme.bg_focus = "#171717"
 theme.bg_minimize = color.dark
-theme.bg_systray = color.dark
+
 
 theme.wibar_bg = "#171717"
 
@@ -26,6 +26,9 @@ theme.tasklist_disable_task_name = true
 
 theme.fg_normal = color.light
 theme.fg_focus = color.light_active
+
+theme.hotkeys_fg = color.light
+theme.hotkeys_modifiers_fg = color.light_active
 
 theme.border_width = dpi(4)
 theme.border_normal = color.dark

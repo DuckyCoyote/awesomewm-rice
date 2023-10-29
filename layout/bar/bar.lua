@@ -5,8 +5,7 @@ local gears = require('gears')
 local gfs = require("gears.filesystem")
 local current_config = gfs.get_configuration_dir()
 
-local color = require('theme/.palette')
-
+-- Widgets
 local date = require('widgets/.clock')
 local mem = require('widgets/.mem')
 local wifi = require('widgets/.wifi')
@@ -18,9 +17,10 @@ local spotify_widget = require("awesome-wm-widgets.spotify-widget.spotify")
 local dashboard = require('widgets/.dashboard')
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 local fs_widget = require('awesome-wm-widgets.fs-widget.fs-widget')
-
-local add_margin = require('layout/.add-margin')
 local taglist = require('layout/bar/.taglist')
+
+-- Functions
+local add_margin = require('layout/.add-margin')
 local baritems = require('layout/bar/.baritems')
 
 awful.screen.connect_for_each_screen(function(s)
