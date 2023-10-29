@@ -346,7 +346,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --local cmd_picom = 'picom'
 --os.execute(cmd_picom)
 
-os.execute('feh --bg-fill ~/awewall.png')
+os.execute('feh --bg-fill ~/womwall.png')
 -- https://gruvbox-wallpapers.pages.dev/
 -- https://www.google.com/search?q=gruvbox+dark+wallpaper&tbm=isch&ved=2ahUKEwjBmf-y_pKCAxViyMkDHYn6BLIQ2-cCegQIABAA&oq=gruvbox+dark+wallpaper&gs_lcp=CgNpbWcQAzIHCAAQExCABDoHCAAQigUQQzoICAAQgAQQsQM6BQgAEIAEOgQIABAeOgYIABAIEB46BggAEB4QE1DCCFiqJ2DSJ2gBcAB4AIABTogBmQySAQIyM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=9vk5ZcHGF-KQp84PifWTkAs&bih=858&biw=1884&client=firefox-b-d#imgrc=zMR8oQSSXujrHM&imgdii=li4ebm8ZpCFCeM
 --os.execute('picom &')

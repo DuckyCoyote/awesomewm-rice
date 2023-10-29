@@ -61,7 +61,7 @@ globalkeys = gears.table.join(
 		{ description = "open a terminal", group = "launcher" }),
 	awful.key({ modkey, "Control" }, "r", awesome.restart,
 		{ description = "reload awesome", group = "awesome" }),
-	awful.key({ modkey, "Shift" }, "q", awesome.quit,
+	awful.key({ modkey, "Shift" }, "q", function() os.execute("~/.config/rofi/powermenu/powermenu.sh") end--[[awesome.quit]],
 		{ description = "quit awesome", group = "awesome" }),
 	awful.key({ modkey, }, "l", function() awful.tag.incmwfact(0.05) end,
 		{ description = "increase master width factor", group = "layout" }),
@@ -109,11 +109,12 @@ globalkeys = gears.table.join(
 	-- Menubar
 	awful.key({ modkey, "Shift" }, "d", function(c) os.execute("rofi -show combi") end,
 		{ description = "Open Launcher", group = "client" }),
-
 	awful.key({ modkey }, "p", function() menubar.show() end,
 		{ description = "show the menubar", group = "launcher" }),
 	awful.key({ modkey }, "b", function() awful.spawn('firefox') end,
-		{ description = "Open Browser", group = "launcher" })
+		{ description = "Open Browser", group = "launcher" }),
+	awful.key({ modkey, "Shift" }, "s", function() os.execute("~/.config/rofi/applets/menu/screenshot.sh") end,
+		{ description = "Take Screenshot", group = "launcher" })
 )
 
 return globalkeys

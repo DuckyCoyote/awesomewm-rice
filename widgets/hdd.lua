@@ -5,7 +5,7 @@ local icon = gfs.get_configuration_dir() .. '/icons/crayon/storage.png'
 
 -- Crear el widget de fecha
 local hdd_text = wibox.widget.textbox()
-vc.register(hdd_text, vc.widgets.fs, ' / ${/ avail_gb} Gb ')
+vc.register(hdd_text, vc.widgets.fs, ' /${/ avail_gb} Gb ')
 
 -- Crear el widget de imagen
 local hdd_icon = wibox.widget.imagebox(icon)

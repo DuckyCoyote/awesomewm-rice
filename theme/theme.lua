@@ -14,9 +14,11 @@ theme.font = "Cartograph CF 11"
 theme.wallpaper = '/home/duckycoyote/wallcastle.jpg'
 
 theme.bg_normal = color.dark
-theme.bg_focus = color.dark
+theme.bg_focus = "#171717"
 theme.bg_minimize = color.dark
 theme.bg_systray = color.dark
+
+theme.wibar_bg = "#171717"
 
 theme.useless_gap = dpi(7)
 --theme.border_radius = dpi(50)
@@ -53,6 +55,5 @@ theme.notification_shape = rounded_shape
 
 theme.notification_icon_resize_strategy = 'center'
 theme.notification_icon_size = dpi(300)
-
 
 return theme
