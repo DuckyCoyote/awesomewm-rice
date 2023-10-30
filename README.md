@@ -1,3 +1,3 @@
 ## AwesomeWM-Rice
 
-[[screenshots/screen1.png]]
+![image](screenshots/screen1.png)
