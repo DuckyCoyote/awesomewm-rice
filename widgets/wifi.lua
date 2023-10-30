@@ -17,8 +17,8 @@ local wifi = wifi_combined
 
 wifi:connect_signal('button::press',
 	function()
-	  os.execute("~/.config/awesome/rofi/rofi-wifi/rofi-wifi-menu.sh")
+		os.execute("~/.config/awesome/rofi/rofi-wifi/rofi-wifi-menu.sh")
 	end
-  )
+)
 
 return wifi

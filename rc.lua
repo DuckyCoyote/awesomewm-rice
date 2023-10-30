@@ -33,7 +33,8 @@ beautiful.init(current_theme)
 
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
-editor = "nvim" 
+browser = "firefox"
+editor = "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -107,11 +108,10 @@ awful.rules.rules = rulesaws
 require('meta.signals')
 
 
-os.execute('feh --bg-fill ~/womwall.png')
+os.execute('feh --bg-fill ~/solar-system-minimal.jpg')
 -- https://gruvbox-wallpapers.pages.dev/
 -- https://www.google.com/search?q=gruvbox+dark+wallpaper&tbm=isch&ved=2ahUKEwjBmf-y_pKCAxViyMkDHYn6BLIQ2-cCegQIABAA&oq=gruvbox+dark+wallpaper&gs_lcp=CgNpbWcQAzIHCAAQExCABDoHCAAQigUQQzoICAAQgAQQsQM6BQgAEIAEOgQIABAeOgYIABAIEB46BggAEB4QE1DCCFiqJ2DSJ2gBcAB4AIABTogBmQySAQIyM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=9vk5ZcHGF-KQp84PifWTkAs&bih=858&biw=1884&client=firefox-b-d#imgrc=zMR8oQSSXujrHM&imgdii=li4ebm8ZpCFCeM
 --os.execute('picom &')
 awful.spawn.with_shell("picom")
 
 --beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
-

@@ -1,7 +1,7 @@
 local vc = require('vicious')
 local wibox = require('wibox')
 local gfs = require("gears.filesystem")
-local icon = gfs.get_configuration_dir() .. '/icons/cpu4.png'
+local icon = gfs.get_configuration_dir() .. '/icons/cpucute.svg'
 -- Crear el widget de fecha
 --local cpu_icon = wibox.widget.textbox('  ')
 --cpu_icon:set_markup('<span color="#fd6b85" size="17000">' .. cpu_icon.text .. '</span>')
