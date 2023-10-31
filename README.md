@@ -13,7 +13,19 @@ I dont know if this guys get this icons, wallpapers or widgets from other pearso
 
 > Pacman, Ghost, Empty and dashboard icons: [gh0stzk](https://github.com/gh0stzk/dotfiles/tree/master).
 
-> Cpu Icon <a href="https://www.flaticon.com/free-icons/commerce-and-shopping" title="commerce and shopping icons">Commerce and shopping icons created by Freepik - Flaticon</a>
+> CPU Icon <a href="https://www.flaticon.com/free-icons/commerce-and-shopping" title="commerce and shopping icons">Commerce and shopping icons created by Freepik - Flaticon</a>
+
+> WIFI ICON <a href="https://www.freepik.com/icon/wifi_1300026#fromView=resource_detail&position=9">Icon by Freepik</a>
+
+> WIFI Icon 1 <a href="https://www.flaticon.com/free-icons/wifi" title="wifi icons">Wifi icons created by Freepik - Flaticon</a>
+
+> WIFI, CPU, HDD, MEMORY and CALDENAR widget: [Vicious](https://vicious.readthedocs.io)
+
+> Spotify and Weather: [awesome-wm-widgets](https://pavelmakhov.com/awesome-wm-widgets/)
+
+> Wifi menu Rofi: [zbaylin](https://github.com/zbaylin/rofi-wifi-menu)
+
+> Screanshots and powermenu rofi applet menu: [SapuSeven](https://github.com/SapuSeven/rofi-presets)
 
 ## Setup Info
 
