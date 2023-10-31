@@ -9,7 +9,7 @@
 
 I dont know if this guys get this icons, wallpapers or widgets from other pearsons or fundations, but i gat this resources from his dots:
 
-> Icons of HDD and Calendar widgets: [Nekonako dotfiles](https://github.com/nekonako/dotfiles/tree/master)
+> Icons of HDD and Calendar widgets: [Nekonako dotfiles](https://github.com/nekonako/dotfiles/tree/master) \n
 > Pacman, Ghost, Empty and dashboard icons: [gh0stzk](https://github.com/gh0stzk/dotfiles/tree/master)
 
 Cpu Icon
