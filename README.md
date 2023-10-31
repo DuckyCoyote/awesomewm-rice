@@ -34,18 +34,18 @@ I dont know if this guys get this icons, wallpapers or widgets from other guys o
 
 ## Setup Info
 
-| task         | name                                       |
-| ------------ | ------------------------------------------ |
-| OS           | ArchLinux                                  |
-| wm           | [awesomewm-git](https://awesomewm.org)     |
-| terminal     | [kitty](https://sw.kovidgoyal.net/kitty)   |
-| launcher     | [Rofi](https://github.com/davatorium/rofi) |
-| editor       | [AstroNvim](https://astronvim.com)         |
-| GtkTheme     | [AzureTheme](https://astronvim.com)        |
-| compositor   | [picom](https://github.com/yshui/picom)    |
-| screenshots  | Scrot                                      |
-| file manager | thunar                                     |
-| pdf viewer   | zathura                                    |
+| task         | name                                                       |
+| ------------ | ---------------------------------------------------------- |
+| OS           | ArchLinux                                                  |
+| wm           | [awesomewm-git](https://awesomewm.org)                     |
+| terminal     | [kitty](https://sw.kovidgoyal.net/kitty)                   |
+| launcher     | [Rofi](https://github.com/davatorium/rofi)                 |
+| editor       | [AstroNvim](https://astronvim.com)                         |
+| GtkTheme     | [AzureTheme](https://github.com/varcharfoobar/azure-theme) |
+| compositor   | [picom](https://github.com/yshui/picom)                    |
+| screenshots  | Scrot                                                      |
+| file manager | thunar                                                     |
+| pdf viewer   | zathura                                                    |
 
 ## Requirements
 
