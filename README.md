@@ -52,6 +52,8 @@ I dont know if this guys get this icons, wallpapers or widgets from other guys o
 | Dependencies   |
 | -------------- |
 | PulseAudio     |
+| PipeWire       |
+| PipeWire-Alsa  |
 | mdp & ncmpcpp  |
 | NetworkManager |
 | alsa-utils     |
@@ -76,7 +78,7 @@ I dont know if this guys get this icons, wallpapers or widgets from other guys o
 
 ```zsh
 sudo pacman -S mpd ncmpcpp networkmanager pulseaudio pipewire pipewire-alsa wireless_tools kitty rofi neovim picom alsa-utils acpi scrot zsh zathura thunar zathura-pdf-mupdf
-yay -S lxappearance ttf-jetbrains-mono-nerd
+yay -S lxappearance ttf-jetbrains-mono-nerd oh-my-posh
 ```
 
 ## Get this rise

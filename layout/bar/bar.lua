@@ -64,8 +64,8 @@ awful.screen.connect_for_each_screen(function(s)
 			}), 12),
 			add_margin(
 				weather_widget({
-					api_key = '',
-					coordinates = {},
+					api_key = '74506808e69308bd700962204ad7fecf',
+					coordinates = { 19.6997, -99.1475 },
 					font_name = 'Carter One',
 					icons = 'VitalyGorbachev',
 					icons_extension = '.svg',
