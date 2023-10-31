@@ -100,7 +100,9 @@ cp -r ./misc/fonts/clarity-city/ ~/.local/share/fonts/
 cp -r ./misc/nvim ~/.config/nvim
 ```
 
-Reload your awesome with `CTRL + SUPER + r` and:
+Reload your awesome with `CTRL + SUPER + r`.
+
+### Config of zsh and oh-my-posh
 
 ```zsh
 #zsh config
@@ -115,7 +117,7 @@ exec zsh
 Launch nvim and instal all the plugins, after:
 
 ```zsh
-cp -r ./misc/nvim/astrothememd ~/.local/share/nvim/lazy/astrotheme
+cp -r ./misc/nvim/astrotheme ~/.local/share/nvim/lazy/
 ```
 
 ### Spotify widget
