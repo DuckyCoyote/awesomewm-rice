@@ -98,6 +98,7 @@ cp -r ./misc/fonts/Roboto ~/.local/share/fonts/Roboto
 cp -r ./misc/fonts/CartographCF/ ~/.local/share/fonts/CartographCF
 cp -r ./misc/fonts/clarity-city/ ~/.local/share/fonts/
 cp -r ./misc/kitty ~/.config/
+cp -r ./misc/chrome ~/.mozilla/firefox/rbwr1l77.default-release/
 cp -r ./misc/nvim ~/.config/nvim
 ```
 
