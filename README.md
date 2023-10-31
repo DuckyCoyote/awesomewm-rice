@@ -12,7 +12,7 @@
 
 > AwesomeWm rice inspired in [Nekonako](https://github.com/nekonako/dotfiles/tree/master) and [Andrea](https://github.com/gh0stzk/dotfiles/tree/master)
 
-I dont know if this guys get this icons, wallpapers or widgets from other pearsons or fundations, but i gat this resources from his dots:
+I dont know if this guys get this icons, wallpapers or widgets from other guys or pages, but i gat this resources from his dots:
 
 > Icons of HDD and Calendar widgets: [Nekonako dotfiles](https://github.com/nekonako/dotfiles/tree/master).
 
