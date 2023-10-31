@@ -1,11 +1,22 @@
 # AwesomeWM-Rice
 
+<style>
+.warning {
+color: red;
+font-size: 30px;
+}
+</style>
+<h2 class="warning">WARNING</h2>
+<p>This Rice only works fine in 1920x1080 size screen, in lower resolution the widgets overlap </p>
+
 ![image](screenshots/screen1.png)
 ![image](screenshots/screen2-neofetch.png)
 ![image](screenshots/screen3-firefox.png)
 ![image](screenshots/zathura.png)
 
 ## Acknowledgment
+
+> AwesomeWm rice inspired in [Nekonako](https://github.com/nekonako/dotfiles/tree/master) and [Andrea](https://github.com/gh0stzk/dotfiles/tree/master)
 
 I dont know if this guys get this icons, wallpapers or widgets from other pearsons or fundations, but i gat this resources from his dots:
 
