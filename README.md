@@ -13,8 +13,7 @@ I dont know if this guys get this icons, wallpapers or widgets from other pearso
 
 > Pacman, Ghost, Empty and dashboard icons: [gh0stzk](https://github.com/gh0stzk/dotfiles/tree/master).
 
-Cpu Icon
-<a href="https://www.flaticon.com/free-icons/commerce-and-shopping" title="commerce and shopping icons">Commerce and shopping icons created by Freepik - Flaticon</a>
+> Cpu Icon <a href="https://www.flaticon.com/free-icons/commerce-and-shopping" title="commerce and shopping icons">Commerce and shopping icons created by Freepik - Flaticon</a>
 
 ## Setup Info
 
