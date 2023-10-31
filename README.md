@@ -21,7 +21,7 @@ I dont know if this guys get this icons, wallpapers or widgets from other pearso
 
 > WIFI, CPU, HDD, MEMORY and CALDENAR widget: [Vicious](https://vicious.readthedocs.io)
 
-> Spotify and Weather: [awesome-wm-widgets](https://pavelmakhov.com/awesome-wm-widgets/)
+> Vol, Spotify and Weather: [awesome-wm-widgets](https://pavelmakhov.com/awesome-wm-widgets/)
 
 > Wifi menu Rofi: [zbaylin](https://github.com/zbaylin/rofi-wifi-menu)
 
