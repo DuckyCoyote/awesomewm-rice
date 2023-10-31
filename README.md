@@ -1,12 +1,6 @@
 # AwesomeWM-Rice
 
-<style>
-.warning {
-color: red;
-font-size: 30px;
-}
-</style>
-<h2 class="warning">WARNING</h2>
+<h2 style="color:#ff202d">WARNING</h2>
 <p>This Rice only works fine in 1920x1080 size screen, in lower resolution the widgets overlap </p>
 
 ![image](screenshots/screen1.png)
