@@ -1,6 +1,9 @@
 # AwesomeWM-Rice
 
 ![image](screenshots/screen1.png)
+![image](screenshots/screen2-neofetch.png)
+![image](screenshots/screen3-firefox.png)
+![image](screenshots/zathura.png)
 
 ## Setup Info
 
@@ -55,7 +58,7 @@ yay -S lxappearance ttf-jetbrains-mono-nerd
 git clone https://github.com/DuckyCoyote/awesomewm-rice/tree/main
 ```
 
-### Copy this repository to .config
+### Copy this repository to your .config
 
 ```zsh
 cd awesomewm-rice
@@ -68,7 +71,7 @@ cp -r ./misc/fonts/clarity-city/ ~/.local/share/fonts/
 cp -r ./misc/nvim ~/.config/nvim
 ```
 
-Reload your awesome with `CTRL + SUPER + r`
+Reload your awesome with `CTRL + SUPER + r` and:
 
 ```zsh
 #zsh config
@@ -80,7 +83,7 @@ exec zsh
 
 ### Change the bg color of astrovim
 
-Luanch nvim and instal all the plugins, after:
+Launch nvim and instal all the plugins, after:
 
 ```zsh
 cp -r ./misc/nvim/astrothememd ~/.local/share/nvim/lazy/astrotheme
@@ -104,4 +107,4 @@ sudo cp ./sp /usr/local/bin/
 
 ## Extras
 
-In misc is the zathura config, the firefox css theme, the ranger conf and some others wallpapers.
+In misc is the zathura config, firefox css theme, ranger conf and some others wallpapers.
