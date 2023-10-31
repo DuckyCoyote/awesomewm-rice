@@ -174,6 +174,10 @@ weather_widget({
 	}), 7),
 ```
 
+## Firefox
+
+If you dont kwon how change the color from firefox see: [linuxfordevices](https://www.linuxfordevices.com/tutorials/linux/customize-firefox-interface-with-css)
+
 ## Extras
 
 In misc is the zathura config, firefox css theme, ranger conf and some others wallpapers.
