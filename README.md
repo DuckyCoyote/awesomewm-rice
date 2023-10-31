@@ -4,16 +4,16 @@
 
 ## Setup Info
 
-| task        | name                                        |
-| ----------- | ------------------------------------------- |
-| OS          | ArchLinux                                   |
-| wm          | ![awesomewm-git]: https://awesomewm.org     |
-| terminal    | ![kitty](https://sw.kovidgoyal.net/kitty)   |
-| launcher    | ![Rofi](https://github.com/davatorium/rofi) |
-| editor      | ![AstroNvim](https://astronvim.com)         |
-| GtkTheme    | ![AzureTheme](https://astronvim.com)        |
-| compositor  | ![picom](https://github.com/yshui/picom)    |
-| screenshots | Scrot                                       |
+| task        | name                                       |
+| ----------- | ------------------------------------------ |
+| OS          | ArchLinux                                  |
+| wm          | [awesomewm-git](https://awesomewm.org)     |
+| terminal    | [kitty](https://sw.kovidgoyal.net/kitty)   |
+| launcher    | [Rofi](https://github.com/davatorium/rofi) |
+| editor      | [AstroNvim](https://astronvim.com)         |
+| GtkTheme    | [AzureTheme](https://astronvim.com)        |
+| compositor  | [picom](https://github.com/yshui/picom)    |
+| screenshots | Scrot                                      |
 
 ## Requirements
 
@@ -25,9 +25,9 @@
 
 ### Shell
 
-| Shell                                                             |
-| ----------------------------------------------------------------- |
-| ![zsh](https://www.zsh.org) + ![Oh-My-Posh](https://ohmyposh.dev) |
+| Shell                                                           |
+| --------------------------------------------------------------- |
+| [zsh](https://www.zsh.org) + [Oh-My-Posh](https://ohmyposh.dev) |
 
 ### Fonts
 
