@@ -130,3 +130,16 @@ sudo cp ./sp /usr/local/bin/
 ## Extras
 
 In misc is the zathura config, firefox css theme, ranger conf and some others wallpapers.
+
+## ToDo
+
+- [ ] DashBoard popup
+- [ ] Refactor to best code
+- [ ] Notification center popup
+- [ ] Control center popup
+- [ ] Disk popup
+- [ ] Memory popup
+- [ ] Volume popup
+- [ ] Wifi popup
+- [ ] Bluetooth Widget and popup
+- [ ] Battery Widget
