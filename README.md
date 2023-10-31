@@ -22,6 +22,8 @@
 | PulseAudio     |
 | mdp & ncmpcpp  |
 | NetworkManager |
+| alsa-utils     |
+| lxappearance   |
 
 ### Shell
 
@@ -35,11 +37,13 @@
   - Cartograph CF
 - Terminal
   - JetBrainsMono Nerd Font
+- Menu
+  - Roboto
 
 ### Install
 
 ```zsh
-sudo pacman -S mpd ncmpcpp networkmanager pulseaudio kitty rofi neovim picom gnome-tweaks alsa-utils acpi scrot
+sudo pacman -S mpd ncmpcpp networkmanager pulseaudio kitty rofi neovim picom alsa-utils acpi scrot zsh
 yay -S lxappearance ttf-jetbrains-mono-nerd
 ```
 
@@ -51,8 +55,53 @@ yay -S lxappearance ttf-jetbrains-mono-nerd
 git clone https://github.com/DuckyCoyote/awesomewm-rice/tree/main
 ```
 
-### Copy this repository
+### Copy this repository to .config
 
 ```zsh
-
+cd awesomewm-rice
+cp -r ./* ~/.config/awesome/
+cp -r ~/.config/awesome/rofi/rofi-applets ~/.config/rofi
+cp -r ./misc/picom.conf ~/.config/
+cp -r ./misc/fonts/Roboto ~/.local/share/fonts/Roboto
+cp -r ./misc/fonts/CartographCF/ ~/.local/share/fonts/CartographCF
+cp -r ./misc/fonts/clarity-city/ ~/.local/share/fonts/
+cp -r ./misc/nvim ~/.config/nvim
 ```
+
+Reload your awesome with `CTRL + SUPER + r`
+
+```zsh
+#zsh config
+chsh -s /usr/bin/zsh
+cp -r ./misc/.zshrc ~/.zshrc
+cp -r ./misc/di4am0nd.omp.json ~/di4am0nd.omp.json
+exec zsh
+```
+
+### Change the bg color of astrovim
+
+Luanch nvim and instal all the plugins, after:
+
+```zsh
+cp -r ./misc/nvim/astrothememd ~/.local/share/nvim/lazy/astrotheme
+```
+
+### Spotify widget
+
+First you need to have spotify CLI installed, it uses dbus to communicate with spotify-client:
+
+```zsh
+git clone https://gist.github.com/fa6258f3ff7b17747ee3.git
+cd ./fa6258f3ff7b17747ee3
+chmod +x sp
+# This widget will work by default if the binary is in the system PATH
+sudo cp ./sp /usr/local/bin/
+# Alternatively, you may save the binary anywhere and supply the path via this widget's sp_bin argument:
+# cp ./sp ~/.config/awesome/scripts/
+```
+
+> [awesome-wm-wdgets](https://pavelmakhov.com/awesome-wm-widgets/)
+
+## Extras
+
+In misc is the zathura config, the firefox css theme, the ranger conf and some others wallpapers.
