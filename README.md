@@ -75,7 +75,7 @@ I dont know if this guys get this icons, wallpapers or widgets from other guys o
 ### Install
 
 ```zsh
-sudo pacman -S mpd ncmpcpp networkmanager pulseaudio kitty rofi neovim picom alsa-utils acpi scrot zsh zathura thunar zathura-pdf-mupdf
+sudo pacman -S mpd ncmpcpp networkmanager pulseaudio pipewire pipewire-alsa wireless_tools kitty rofi neovim picom alsa-utils acpi scrot zsh zathura thunar zathura-pdf-mupdf
 yay -S lxappearance ttf-jetbrains-mono-nerd
 ```
 
@@ -92,7 +92,7 @@ git clone https://github.com/DuckyCoyote/awesomewm-rice/tree/main
 ```zsh
 cd awesomewm-rice
 cp -r ./* ~/.config/awesome/
-cp -r ~/.config/awesome/rofi/rofi-applets ~/.config/rofi
+cp -r ./rofi/rofi-applets ~/.config/rofi
 cp -r ./misc/picom.conf ~/.config/
 cp -r ./misc/fonts/Roboto ~/.local/share/fonts/Roboto
 cp -r ./misc/fonts/CartographCF/ ~/.local/share/fonts/CartographCF
@@ -100,6 +100,8 @@ cp -r ./misc/fonts/clarity-city/ ~/.local/share/fonts/
 cp -r ./misc/kitty ~/.config/
 cp -r ./misc/chrome ~/.mozilla/firefox/rbwr1l77.default-release/
 cp -r ./misc/nvim ~/.config/nvim
+mkdir ~/.themes
+cp -r ./misc/Azure-Dark ~/.themes/
 ```
 
 Reload your awesome with `CTRL + SUPER + r`.
@@ -137,6 +139,40 @@ sudo cp ./sp /usr/local/bin/
 ```
 
 > [awesome-wm-wdgets](https://pavelmakhov.com/awesome-wm-widgets/)
+
+### Change your Network Interface
+
+Find your Network Interface
+
+```zsh
+ip link
+```
+
+Open ~/.config/awesome/widgets/wifi.lua.8:58 with your editor and change
+
+```lua
+-- Crear el widget de fecha
+local wifi_text = wibox.widget.textbox()
+vc.register(wifi_text, vc.widgets.wifi, " ${ssid}", 10, '<your Network Interface Ej:wlan0>')
+```
+
+Save and reload
+
+### Change the location
+
+Open ~/.config/awesome/layout/bar/bar.lua.67:22 and change your api key (get from [OpenWeather](https://openweathermap.org/find))
+
+```lua
+weather_widget({
+	api_key = '<your api key>',
+	coordinates = { <Your coordinates Ej.10, -25> },
+	font_name = 'Carter One',
+	icons = 'VitalyGorbachev',
+    icons_extension = '.svg',
+	show_hourly_forecast = true,
+	show_daily_forecast = true,
+	}), 7),
+```
 
 ## Extras
 
