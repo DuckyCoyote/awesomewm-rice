@@ -78,7 +78,7 @@ I dont know if this guys get this icons, wallpapers or widgets from other guys o
 
 ```zsh
 sudo pacman -S mpd ncmpcpp networkmanager pulseaudio pipewire pipewire-alsa wireless_tools kitty rofi neovim picom alsa-utils acpi scrot zsh zathura thunar zathura-pdf-mupdf viewnior xdg-user-dir
-yay -S awesomewm-git lxappearance ttf-jetbrains-mono-nerd oh-my-posh
+yay -S awesome-git lxappearance ttf-jetbrains-mono-nerd oh-my-posh
 ```
 
 ## Get this rise
