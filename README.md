@@ -3,6 +3,7 @@
 <h2 style="color:#ff202d">------------WARNING------------</h2>
 <p>This Rice only works fine in 1920x1080 size screen, in lower resolution the widgets overlap </p>
 
+![image](screenshots/screen4-heart.png)
 ![image](screenshots/screen1.png)
 ![image](screenshots/screen2-neofetch.png)
 ![image](screenshots/screen3-firefox.png)
@@ -193,4 +194,4 @@ In misc is the zathura config, firefox css theme, ranger conf and some others wa
 - [ ] Volume popup
 - [ ] Wifi popup
 - [ ] Bluetooth Widget and popup
-- [ ] Battery Widget
+- [x] Battery Widget

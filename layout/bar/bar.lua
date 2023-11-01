@@ -17,6 +17,7 @@ local spotify_widget = require("awesome-wm-widgets.spotify-widget.spotify")
 local dashboard = require('widgets/.dashboard')
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 local fs_widget = require('awesome-wm-widgets.fs-widget.fs-widget')
+local bat = require('widgets.battery')
 local taglist = require('layout/bar/.taglist')
 
 -- Functions
@@ -76,6 +77,7 @@ awful.screen.connect_for_each_screen(function(s)
 			add_margin(cpu, 9),
 			add_margin(hdd, 7),
 			add_margin(mem, 5),
+			add_margin(bat, 5),
 			add_margin(date, 7),
 			add_margin(volume_widget, 7),
 			add_margin(s.mylayoutbox, 10),
