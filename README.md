@@ -17,13 +17,15 @@ I dont know if this guys get this icons, wallpapers or widgets from other guys o
 
 > Icons of HDD and Calendar widgets: [Nekonako dotfiles](https://github.com/nekonako/dotfiles/tree/master).
 
-> Pacman, Ghost, Empty and dashboard icons: [gh0stzk](https://github.com/gh0stzk/dotfiles/tree/master).
+> Pacman, Ghost and Empty icons: [gh0stzk](https://github.com/gh0stzk/dotfiles/tree/master).
 
 > CPU Icon <a href="https://www.flaticon.com/free-icons/commerce-and-shopping" title="commerce and shopping icons">Commerce and shopping icons created by Freepik - Flaticon</a>
 
 > WIFI ICON <a href="https://www.freepik.com/icon/wifi_1300026#fromView=resource_detail&position=9">Icon by Freepik</a>
 
 > WIFI Icon 1 <a href="https://www.flaticon.com/free-icons/wifi" title="wifi icons">Wifi icons created by Freepik - Flaticon</a>
+
+> Menu Icon <a href="https://www.flaticon.com/free-icons/main-menu" title="main menu icons">Main menu icons created by kendis lasman - Flaticon</a>
 
 > WIFI, CPU, HDD, MEMORY and CALDENAR widget: [Vicious](https://vicious.readthedocs.io)
 

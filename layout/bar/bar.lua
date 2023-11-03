@@ -68,6 +68,16 @@ awful.screen.connect_for_each_screen(function(s)
 		widget_shape
 	)
 
+	local last_widgets = wibox.container.background(
+		wibox.container.margin(
+			wibox.widget { wifi, spacing = 10,
+				layout = wibox.layout.fixed.horizontal
+			},
+			10, 10, 0, 0),
+		'#242424',
+		widget_shape
+	)
+
 	s.mywibox = awful.wibar({
 		position = "top",
 		screen = s,
@@ -94,14 +104,9 @@ awful.screen.connect_for_each_screen(function(s)
 				font = 'Cascadia Code 11',
 				play_icon = gfs.get_configuration_dir() .. '/icons/play.png',
 				pause_icon = gfs.get_configuration_dir() .. '/icons/pause-button.png'
-			}), 12),
-			add_margin(wifi, 9),
-			--add_margin(cpu, 9),
-			--add_margin(hdd, 7),
-			--add_margin(mem, 5),
+			}), 10),
+			add_margin(last_widgets, 8),
 			add_margin(sensors_widget, 7),
-			--add_margin(bat, 5),
-			--add_margin(date, 7),
 			add_margin(info_widgets, 7),
 			add_margin(volume_widget, 7),
 			add_margin(s.mylayoutbox, 10),
