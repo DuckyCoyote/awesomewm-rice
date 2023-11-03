@@ -36,49 +36,73 @@ awful.screen.connect_for_each_screen(function(s)
 		gears.shape.rounded_rect(cr, width, height, 15)
 	end
 
+	function widget_shape(cr, width, height)
+		gears.shape.rounded_rect(cr, width, height, 5)
+	end
+
+	local info_widgets = wibox.container.background(
+		wibox.container.margin(
+			wibox.widget { weather_widget({
+				api_key = '74506808e69308bd700962204ad7fecf',
+				coordinates = { 19.6997, -99.1475 },
+				font_name = 'Carter One',
+				icons = 'VitalyGorbachev',
+				icons_extension = '.svg',
+				show_hourly_forecast = true,
+				show_daily_forecast = true,
+			}), date, spacing = 10,
+				layout = wibox.layout.fixed.horizontal
+			},
+			10, 10, 0, 0),
+		'#242424',
+		widget_shape
+	)
+
+	local sensors_widget = wibox.container.background(
+		wibox.container.margin(
+			wibox.widget { cpu, hdd, mem, spacing = 10,
+				layout = wibox.layout.fixed.horizontal
+			},
+			10, 10, 0, 0),
+		'#242424',
+		widget_shape
+	)
+
 	s.mywibox = awful.wibar({
 		position = "top",
 		screen = s,
-		height = 40,
+		height = dpi(40),
 		width = s.full,
 		border_width = 7,
-		shape = rounded_shape
+		--shape = rounded_shape
 	})
 
 	s.mywibox:setup {
 		layout = wibox.layout.align.horizontal,
 		{ -- Left Items
-			add_margin(dashboard, 7),
+			wibox.container.margin(dashboard, 20, 5, 7, 7),
 			add_margin(s.mytaglist, 7),
-			add_margin(s.mytasklist, 7),
+			add_margin(s.mytasklist, 10),
 			layout = wibox.layout.align.horizontal,
 		},
 		{ -- Middle Items
 			layout = wibox.layout.align.horizontal,
-			add_margin(s.mypromptbox, 3)
+			add_margin(s.mypromptbox, 3),
 		},
-		{ -- Right Items			
+		{ -- Right Items
 			add_margin(spotify_widget({
 				font = 'Cascadia Code 11',
 				play_icon = gfs.get_configuration_dir() .. '/icons/play.png',
 				pause_icon = gfs.get_configuration_dir() .. '/icons/pause-button.png'
 			}), 12),
-			add_margin(
-				weather_widget({
-					api_key = '74506808e69308bd700962204ad7fecf',
-					coordinates = { 19.6997, -99.1475 },
-					font_name = 'Carter One',
-					icons = 'VitalyGorbachev',
-					icons_extension = '.svg',
-					show_hourly_forecast = true,
-					show_daily_forecast = true,
-				}), 7),
 			add_margin(wifi, 9),
-			add_margin(cpu, 9),
-			add_margin(hdd, 7),
-			add_margin(mem, 5),
-			add_margin(bat, 5),
-			add_margin(date, 7),
+			--add_margin(cpu, 9),
+			--add_margin(hdd, 7),
+			--add_margin(mem, 5),
+			add_margin(sensors_widget, 7),
+			--add_margin(bat, 5),
+			--add_margin(date, 7),
+			add_margin(info_widgets, 7),
 			add_margin(volume_widget, 7),
 			add_margin(s.mylayoutbox, 10),
 			layout = wibox.layout.fixed.horizontal,

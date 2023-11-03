@@ -18,11 +18,11 @@ local rulesaws = {
 			buttons = clientbuttons,
 			screen = awful.screen.preferred,
 			placement = awful.placement.no_overlap + awful.placement.no_offscreen,
-			shape = client.connect_signal("manage", function(c)
-				c.shape = function(cr, w, h)
-					gears.shape.rounded_rect(cr, w, h, 12) -- Ajusta el valor 10 al radio de los bordes redondeados
-				end
-			end)
+			--			shape = client.connect_signal("manage", function(c)
+			--			c.shape = function(cr, w, h)
+			--			gears.shape.rounded_rect(cr, w, h, 12) -- Ajusta el valor 10 al radio de los bordes redondeados
+			--	end
+			--end)
 		}
 	},
 
