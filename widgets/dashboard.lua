@@ -69,9 +69,11 @@ local profile_widget = wibox.widget {
     name,
     forced_width = 500,
     forced_height = 500,
-    layout = wibox.layout.align.vertical
+    layout = wibox.layout.align.vertical,
   },
-  layout = wibox.container.place
+  bg = '#fff',
+  layout = wibox.container.place,
+  widget = wibox.container.background
 }
 
 local phrase_widget = wibox.widget {
@@ -111,6 +113,7 @@ local dash_pop = awful.popup {
   },
   ontop         = true,
   maximum_width = 1800,
+  bg            = "#303030",
   border_color  = '#242424',
   border_width  = 2,
   placement     = awful.placement.centered,
