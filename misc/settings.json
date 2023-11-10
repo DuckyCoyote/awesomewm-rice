@@ -1,0 +1,315 @@
+{
+  "workbench.iconTheme": "symbols",
+  "editor.fontWeight": "500",
+  //"editor.fontLigatures": true,
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "zenMode.restore": true,
+  "tabnine.experimentalAutoImports": true,
+  "timeline.pageSize": 0,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  //Terminal
+  //"terminal.integrated.profiles.linux": "/bin/zsh",
+  "workbench.panel.defaultLocation": "bottom",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.formatOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "[Nocterial Palenight]": {
+      "textMateRules": [
+        {
+          "scope": ["storage.type.js"],
+          "settings": {
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": ["keyword.control"],
+          "settings": {
+            "foreground": "#FF5370",
+            "fontStyle": "italic bold"
+          }
+        },
+        {
+          "scope": [
+            "variable.other.object",
+            // C# .NET
+            "variable.other.readwrite"
+          ],
+          "settings": {
+            "foreground": "#FF5370",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "variable.other.readwrite",
+            // C# .NET
+            "entity.name.type.namespace",
+            "entity.name.variable"
+          ],
+          "settings": {
+            "foreground": "#fed270"
+          }
+        },
+        {
+          "scope": [
+            "variable.parameter"
+            // C# .NET
+          ],
+          "settings": {
+            "foreground": "#9ddc56"
+          }
+        },
+        {
+          "scope": ["keyword.operator.new", "support.class"],
+          "settings": {
+            "foreground": "#43aef0"
+          }
+        },
+        {
+          "scope": [
+            "keyword.other.namespace.cs",
+            "keyword.other.using.cs",
+            "storage.modifier"
+          ],
+          "settings": {
+            "foreground": "#FF5370"
+          }
+        }
+      ]
+    },
+    "[Community Material Theme Ocean High Contrast]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "support.function",
+            "support.variable.property",
+            "entity.name.function",
+            "variable.other.property" /*, support.function*/
+          ],
+          "settings": {
+            "foreground": "#ffc14e",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": ["variable"],
+          "settings": {
+            "foreground": "#C3E88D"
+          }
+        },
+        {
+          "scope": ["string"],
+          "settings": {
+            "foreground": "#baeb71"
+          }
+        },
+        {
+          "scope": [
+            "support.variable",
+            " variable.other.readwrite",
+            "variable.other.object",
+            "variable.other.constant"
+          ],
+          "settings": {
+            "foreground": "#f04b74"
+          }
+        },
+        {
+          "scope": ["keyword.control"],
+          "settings": {
+            "foreground": "#9f6cff",
+            "fontStyle": "italic bold"
+          }
+        },
+        {
+          "scope": ["storage.type"],
+          "settings": {
+            "fontStyle": "italic bold"
+          }
+        },
+        {
+          "scope": ["meta.object-literal.key"],
+          "settings": {
+            "foreground": "#ffc14e"
+          }
+        }
+      ]
+    },
+    "[One Dark Pro Darker]": {
+      "textMateRules": [
+        {
+          "scope": ["keyword.control"],
+          "settings": {
+            "fontStyle": "italic bold"
+          }
+        },
+        {
+          "scope": ["keyword.operator"],
+          "settings": {
+            "fontStyle": "italic bold",
+            "foreground": "#ffc14e"
+          }
+        },
+        {
+          "scope": [
+            "storage.type",
+            "entity.other.attribute-name",
+            "entity.other.attribute-name.class.css"
+          ],
+          "settings": {
+            "fontStyle": "italic bold"
+          }
+        }
+      ]
+    },
+    "[Sonokai Shusia]": {
+      "textMateRules": [
+        {
+          "scope": [
+            //"variable.other"
+          ],
+          "settings": {
+            "foreground": "#f04b74"
+          }
+        }
+      ]
+    }
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "redhat.telemetry.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.compactFolders": false,
+  "phpserver.port": 8500,
+  "oneDarkPro.bold": true,
+  "oneDarkPro.color": {
+    "chalky": "",
+    "coral": "",
+    "dark": "",
+    "error": "",
+    "fountainBlue": "",
+    "green": "",
+    "invalid": "",
+    "lightDark": "",
+    "lightWhite": "",
+    "malibu": "",
+    "purple": "",
+    "whiskey": "",
+    "deepRed": ""
+  },
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "workbench.productIconTheme": "fluent-icons",
+  "beautify.ignore": "false",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    /*#2D2A2E, #1b1b1b*, #211f22*/
+    "[Sonokai Shusia]": {
+      "editor.background": "#211f22",
+      "activityBar.background": "#211f22",
+      "sideBar.background": "#211f22",
+      "editor.lineHighlightBackground": "#211f22",
+      "statusBar.background": "#211f22",
+      "panel.background": "#262427",
+      "editorGroupHeader.tabsBackground": "#211f22",
+      "tab.activeBackground": "#211f22"
+    },
+    "[Nocterial Palenight]": {
+      "editor.background": "#1b1e2b",
+      "activityBar.background": "#1b1e2b",
+      "statusBar.background": "#1b1e2b",
+      "editorGutter.background": "#1b1e2b",
+      "editor.lineHighlightBackground": "#1e2230", // Cambia el fondo de la línea activa
+      "editor.lineHighlightBorder": "#00000000",
+      "panel.background": "#1b1e2b",
+      "editorGroupHeader.tabsBackground": "#1b1e2b",
+      "tab.activeBackground": "#1b1e2b",
+      "editorGroup.border": "#1b1e2b", // Cambia el color del borde entre grupos de editores
+      "panel.border": "#1b1e2b", // Cambia el color del borde alrededor del panel
+      "sideBar.border": "#1b1e2b", // Cambia el color del borde en el sidebar
+      "statusBar.border": "#1b1e2b", // Cambia el color del borde en la barra de estado
+      "titleBar.border": "#1b1e2b",
+      "editorGroupHeader.tabsBorder": "#1b1e2b", // Cambia el color del borde de las pestañas inactivas
+      "breadcrumb.background": "#1b1e2b",
+      "activityBar.border": "#1b1e2b",
+      "editor.selectionHighlightBackground": "#13161f", // Cambia el color de fondo de las coincidencias de palabra seleccionada
+      "editor.selectionHighlightBorder": "#1b1e2b00" // Cambia el color del borde de las coincidencias de palabra seleccionada
+    },
+    "[One Dark Pro]": {
+      "editor.background": "#191919",
+      "activityBar.background": "#191919",
+      "statusBar.background": "#191919",
+      "editorGutter.background": "#191919",
+      "editor.lineHighlightBackground": "#202020", // Cambia el fondo de la línea activa
+      "editor.lineHighlightBorder": "#00000000",
+      "panel.background": "#191919",
+      "editorGroupHeader.tabsBackground": "#191919",
+      "tab.activeBackground": "#242424",
+      "editorGroup.border": "#292929", // Cambia el color del borde entre grupos de editores
+      "panel.border": "#191919", // Cambia el color del borde alrededor del panel
+      "sideBar.border": "#191919", // Cambia el color del borde en el sidebar
+      "statusBar.border": "#191919", // Cambia el color del borde en la barra de estado
+      "titleBar.border": "#191919",
+      "editorGroupHeader.tabsBorder": "#191919", // Cambia el color del borde de las pestañas inactivas
+      "breadcrumb.background": "#191919",
+      "activityBar.border": "#191919",
+      "editor.selectionHighlightBackground": "#191919", // Cambia el color de fondo de las coincidencias de palabra seleccionada
+      "editor.selectionHighlightBorder": "#191919", // Cambia el color del borde de las coincidencias de palabra seleccionada
+      "activityBar.foreground": "#c4c4b5",
+      "sideBar.background": "#191919",
+      "tab.inactiveBackground": "#191919"
+    }
+  },
+  "oneDarkPro.vivid": true,
+  "editor.tabSize": 2,
+  "code-runner.runInTerminal": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "editor.fontVariations": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "symbols.hidesExplorerArrows": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "C_Cpp.default.compilerPath": "/usr/bin/cpp",
+  "git.autofetch": true,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 16,
+  "database-client.highlightSQLBlock": true,
+  "database-client.showUser": true,
+  "accessibility.verbosity.inlineChat": false,
+  "debug.console.fontSize": 16,
+  "terminal.integrated.fontSize": 15
+}
