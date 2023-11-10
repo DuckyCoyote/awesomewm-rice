@@ -3,6 +3,7 @@ local gfs = require("gears.filesystem")
 local icon = gfs.get_configuration_dir() .. '/icons/menu.png'
 local awful = require('awful')
 local gears = require('gears')
+local cpu = require('vicious.widgets.cpu_linux')
 local dpi = require('beautiful.xresources').apply_dpi
 
 -- Crear el widget de fecha
@@ -71,7 +72,7 @@ local profile_widget = wibox.widget {
     forced_height = 500,
     layout = wibox.layout.align.vertical,
   },
-  bg = '#fff',
+  bg = '#ffffff',
   layout = wibox.container.place,
   widget = wibox.container.background
 }
@@ -93,6 +94,31 @@ local phrase_widget = wibox.widget {
   layout = wibox.layout.align.vertical
 }
 
+local sensors_widget = wibox.widget {
+  {
+    text = '',
+    align = 'center',
+    font = 'FiraCode Nerd Font 40',
+    widget = wibox.widget.textbox
+  },
+  {
+    bg = '#c4c4b5',
+    forced_width = dpi(100),
+    forced_height = dpi(100),
+    min_value = 0,
+    max_value = 100,
+    value = 50,
+    rounded_edge = true,
+    thickness = 20,
+    start_angle = 0,
+    colors = { '#2498ff' },
+    widget = wibox.container.arcchart
+  },
+  layout = wibox.layout.stack
+}
+
+--sensors_widget:set_value(cpu)
+
 local final_widget = wibox.widget {
   homogeneous   = false,
   spacing       = 5,
@@ -103,17 +129,15 @@ local final_widget = wibox.widget {
 
 final_widget:add_widget_at(profile_widget, 2, 1, 1, 1)
 final_widget:add_widget_at(phrase_widget, 4, 1, 1, 1)
+final_widget:add_widget_at(sensors_widget, 2, 3, 2, 1)
 
 local dash_pop = awful.popup {
   widget        = wibox.widget {
-    text = 'Hola Mundo',
-    forced_width = 1600,
-    forced_height = 900,
-    widget = wibox.widget.textbox
+    widget = wibox.widget.separator
   },
   ontop         = true,
   maximum_width = 1800,
-  bg            = "#303030",
+  --bg            = "#303030",
   border_color  = '#242424',
   border_width  = 2,
   placement     = awful.placement.centered,
@@ -134,7 +158,8 @@ dash_pop:setup({
   widget = wibox.container.margin,
   layout = wibox.layout.fixed.vertical]]
   final_widget,
-  layout = wibox.layout.grid
+  layout = wibox.layout.grid,
+  widget = wibox.widget.separator
 })
 
 launcher:buttons(gears.table.join(awful.button({}, 1, function()

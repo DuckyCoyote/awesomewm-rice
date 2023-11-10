@@ -8,59 +8,60 @@ local c = {
 --------------------------------
 --- Syntax
 --------------------------------
-c.syntax.red = "#FF838B"
-c.syntax.orange = "#F5983A"
-c.syntax.yellow = "#DFAB25"
-c.syntax.green = "#87C05F"
-c.syntax.cyan = "#4AC2B8"
-c.syntax.blue = "#5EB7FF"
-c.syntax.purple = "#DD97F1"
-c.syntax.text = "#ADB0BB"
-c.syntax.comment = "#696C76"
-c.syntax.mute = "#595C66"
+c.syntax.red = "#DF8489"
+c.syntax.blue = "#4FA9C6"
+c.syntax.green = "#84A860"
+c.syntax.yellow = "#C3963D"
+c.syntax.purple = "#CD87BA"
+c.syntax.cyan = "#4FAD97"
+c.syntax.orange = "#EF9474"
+
+c.syntax.comment = "#63646A"
+c.syntax.text = "#A5B2BC"
+c.syntax.mute = "#444145"
 
 --------------------------------
 --- UI
 --------------------------------
-c.ui.red = "#F8747E"
-c.ui.orange = "#EB8332"
-c.ui.yellow = "#D09214"
-c.ui.green = "#75AD47"
-c.ui.cyan = "#00B298"
-c.ui.blue = "#50A4E9"
-c.ui.purple = "#CC83E3"
+c.ui.red = "#E77777"
+c.ui.blue = "#9CBDC9"
+c.ui.green = "#9AC374"
+c.ui.yellow = "#FFA31A"
+c.ui.purple = "#E8A1D7"
+c.ui.cyan = "#88C3AB"
+c.ui.orange = "#FAA27F"
 
-c.ui.accent = "#50A4E9"
+c.ui.accent = "#9CBDC9"
 
-c.ui.tabline = "#202020"--"#111317"
-c.ui.winbar = "#797D87"
-c.ui.tool = "#191919"--"#16181D"
-c.ui.base = "#191919"--,#1A1D23"
-c.ui.inactive_base = "#191919"--#16181D"
-c.ui.statusline = "#202020"--"#111317"
-c.ui.split = "#202020"--"#111317"
-c.ui.float = "#191919"--"#14161B"
+c.ui.tabline = "#281E22"
+c.ui.winbar = "#8D8184"
+c.ui.tool = "#1A1113"
+c.ui.base = "#1E1517"
+c.ui.inactive_base = "#1A1113"
+c.ui.statusline = "#281E22"
+c.ui.split = "#281E22"
+c.ui.float = "#1A1113"
 c.ui.title = c.ui.accent
-c.ui.border = "#3A3E47"
-c.ui.current_line = "#1E222A"
+c.ui.border = "#736468"
+c.ui.current_line = "#22191B"
 c.ui.scrollbar = c.ui.accent
-c.ui.selection = "#26343F"
+c.ui.selection = "#1B282C"
 -- TODO: combine menu_selection and selection
 c.ui.menu_selection = c.ui.selection
-c.ui.highlight = "#23272F"
-c.ui.none_text = "#3A3E47"
-c.ui.text = "#9B9FA9"
-c.ui.text_active = "#ADB0BB"
-c.ui.text_inactive = "#494D56"
-c.ui.text_match = "#E0E0Ee"
+c.ui.highlight = "#251D1F"
+c.ui.none_text = "#393337"
+c.ui.text = "#8B7079"
+c.ui.text_active = "#A5B2BC"
+c.ui.text_inactive = "#68545B"
+c.ui.text_match = "#ffeeee"
 
-c.ui.prompt = "#21242A"
+c.ui.prompt = "#281E22"
 
 --------------------------------
 --- terminal
 --------------------------------
 c.term.black = c.ui.tabline
-c.term.bright_black = c.ui.tabline
+c.term.bright_black = c.ui.base
 
 c.term.red = c.syntax.red
 c.term.bright_red = c.syntax.red
@@ -81,7 +82,7 @@ c.term.cyan = c.syntax.cyan
 c.term.bright_cyan = c.syntax.cyan
 
 c.term.white = c.ui.text
-c.term.bright_white = c.ui.text_active
+c.term.bright_white = c.ui.active_text
 
 c.term.background = c.ui.base
 c.term.foreground = c.ui.text
